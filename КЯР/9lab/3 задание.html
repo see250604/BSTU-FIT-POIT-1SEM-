@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <style>
+            img{
+                height: 300px;
+                width: 300px;
+            }
+            .grid{
+                display: grid;
+                grid-template-areas: 
+                "x z c v"
+                "x1 z1 c1 v1";
+               grid-template-columns: 300px 300px 300px ;
+               grid-template-rows: auto auto auto;
+               grid-gap: 10px;
+               row-gap: 50px;
+            }
+     
+        </style>
+    </head>
+    <body>
+        <h1>Фотогалерея</h1>
+        <div class="grid">
+                <div style="grid-area: x;"><img src="25.jpg"> </div>
+
+                <div style="grid-area: z"><img src="25.jpg"> </div>
+
+                <div style="grid-area: c"><img src="25.jpg">
+                 </div>
+
+                <div style="grid-area: v"><img src="25.jpg"> </div>
+        </div>
+        <div class="grid">
+                <div style="grid-area: x1"><img src="25.jpg"> </div>
+            
+                <div style="grid-area: z1"><img src="25.jpg"> </div>
+           
+                <div style="grid-area: c1"><img src="25.jpg"> </div>
+           
+                <div style="grid-area: v1"><img src="25.jpg"> </div>
+          </div>
+        </div>
+    </body>
+</html>
