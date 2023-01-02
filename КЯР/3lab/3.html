@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Text </title>
+<meta charset="UTF-8">
+<style>
+    @font-face {
+        font-family: 'Exo2';   
+        src: url("fonts/Exo2.woff");
+    }
+    @font-face {
+        font-family: 'Comfortaa';
+        src: url("fonts/Comfortaa.woff");
+    }
+    @font-face {
+        font-family:'Carveat' ;
+        src: url("fonts/Carveat.woff");
+    }
+    h1{
+        font-family: 'Carveat';
+        font-weight: bold;
+        text-align: center;
+        font-variant: small-caps;
+        margin: 0px;
+        text-shadow: 3px 4px yellow;
+        font-size: 45px;
+    }
+    h2{
+        font-family: 'Exo2';
+        text-align: left;
+        margin-top: 1.2em;
+        margin-bottom: 0.2rem;
+        text-indent: 25px;
+    }
+    p{
+        font-family: 'Comfortaa';
+        text-indent: 25px;
+        text-align: justify;
+        line-height: 120%;
+        margin: 0px;
+        font-size: 20px;}
+        p::first-letter{
+            color: white;
+            background-color: hsla(275, 100%, 10%, 1);
+            font-size: 25px;
+            font-weight: bold;
+        }
+    .fff{
+        margin: 0px;
+    }
+    ol li {
+        list-style-type: none;
+        counter-increment: llll;
+    }
+    ol li::before{
+        content: counter(llll, lower-roman)".";
+        color: blue;
+    }
+    ol{
+        font-family: 'Comfortaa';
+        text-indent: 25px;
+        text-align: justify;
+        line-height: 120%;
+        margin: 0px;
+        font-size: 20px;
+    }
+</style>
+</head>
+<body>
+<h1>Спортивная инфраструктура </h1>
+<h2>Спортивные здания</h2>
+<p>Спортивная и физкультурная инфраструктура города включает в себя один из крупнейших в Белоруссии ледовый дворец «Бобруйск-Арена», конно-спортивный клуб «Ломов», водно-спортивный комплекс «Лесной», четыре стадиона, два плавательных бассейна (и около двадцати мини-бассейнов), около ста спортивных залов, около трёхсот уличных спортивных площадок. В городе есть собственные футбольный и хоккейный клубы, а также проводятся международные и республиканские соревнования.</p>
+<p>Ледовый дворец «Бобруйск-Арена» был открыт 31 мая 2008 года. Вместимость дворца составляет 7000 человек. «Бобруйск-Арена» является домашним стадионом хоккейного клуба «Динамо-Шинник» (Бобруйск). Заслуженные тренеры последнего сезона хоккейного клуба "Бобруйск":
+    <ol>
+        <li>Александрович П.Ю.</li>
+        <li>Сасев В.Н.</li>
+        <li>Пачук В.А.</li>
+        <li>Короленко Р.С.</li>
+        <li>Лукъянов Р.А.</li>
+    </ol> </p>
+<h2>Соревнования</h2>
+<p>В городе проводятся международные (по мини-футболу и самбо) и республиканские (два по греко-римской борьбе — памяти генерал-майора Бахарова и на призы Лиштвана) турниры, спартакиада по дзюдо, этапы республиканских кубков по велоспорту, драгрейсингу и туристско-прикладному многоборью, а также легкоатлетические соревнования памяти генерал-майора Бахарова (более 1500 участников в 2008 году) .
+</p>
+</body>
+</html>
