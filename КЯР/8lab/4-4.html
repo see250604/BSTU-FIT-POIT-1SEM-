@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+        form {
+            background-color:indigo;
+            width:600px;
+            height:700px;
+        }
+        
+      label, h1
+      {
+          color:white;
+      }
+        input,  label,select{
+            
+            font-size:1.2em;
+        }
+   
+        p
+        {
+            text-align:right;
+        }
+        .input {
+            background-color: rgba(255,255,255, .5);
+            color: rgba(255,255,255, .1);
+            box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+            inline-size:300px;
+            margin-right:20px;
+            border-radius:5px;
+        }
+            .input[type="text"]:focus {
+                background-color: black;
+                color: white;
+            }
+        .button {
+            background-color: navy;
+            box-shadow: 0 0 4px white;
+            color: white;
+            float: right;
+            font-size: 25px;
+            margin-left: 5px;
+            margin-right: 5px;
+            border-radius: 5px;
+        }
+        label
+        {
+            float:left;
+            text-indent:15px;
+            
+        }
+        .pol
+        {
+            float:right;
+            margin-right:30px;
+        }
+        .pad
+        {margin-right:20px;}
+    </style>
+    <title></title>
+</head>
+<body>
+    <div align="center">
+        <form>
+            <h1>Регистрация постоянного контента</h1>
+            <p>
+                <label>Фамилия:</label> <input class="input" type="text" name="Фамилия:" />
+            </p>
+            <p>
+                <label>Имя:</label><input class="input" type="text" name="Имя:" />
+            </p>
+            <p>
+                <label>Отчество:</label><input class="input" type="text" name="Отчество:" />
+            </p>
+            <p>
+                <label>Ваш возраст</label><input class="input" type="text" name="Ваш возраст:" />
+            </p>
+            <p>
+                <label>Пол:</label><label class="pol"><input  type="checkbox" />мужской</label><label class="pol"><input type="checkbox" /> женский</label> <br />
+            </p>
+            <p>
+                <label>Email:</label> <input class="input" type="email" name="email" />
+            </p>
+            <p>
+                <label>Страна проживания:</label> <input class="input" type="text" name="Страна проживания:" />
+            </p>
+            <p>
+                <label>Откуда вы узнали о нас?</label>
+                <select class="pad">
+                    <option>От знакомых</option>
+                    <option>В интернете</option>
+                    <option>По рекламе</option>
+                    <option>Из других источников</option>
+                </select>
+            </p>
+            <p>
+                <label>Дата заполнения</label><input class="pad" type="date" name="дата" />
+            </p>
+            <p>
+                <input class="button" type="reset" value="Отмена" name="отм" />
+                <input class="button" type="submit" value="Регистрация" />
+            </p>
+        </form>
+        </div>
+</body>
+</html>

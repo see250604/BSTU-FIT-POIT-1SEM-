@@ -1,0 +1,63 @@
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.nav > ul > li {
+  width: 180px;
+  position: relative;
+}
+.nav li {
+  display: block;
+  background: yellow;
+  border: 1px solid black;
+  padding: 8px;
+  text-decoration: none;
+  font-family: Arial;
+}
+.nav li .second {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.nav li:hover .second {
+  display: block;
+}
+.nav li li {
+  width: 120px;
+  background-color: coral;
+  border: 2px dashed black;
+  text-decoration: none;
+  color: black;
+}
+.nav li a {
+  text-decoration: none;
+  color: black;
+}
+.sp2 a {
+  border: 1px solid black;
+  display: inline-block;
+  width: 100px;
+  height: 25px;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-left: 35px;
+  background: url(facultet.png) no-repeat 0 0;
+  color: black;
+}
+.sp2 li {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.sp2 .fit a:hover {
+  background-position: 0 -30px;
+}
+.sp2 .pim a:hover {
+  background-position: 0 -90px;
+}
+.sp2 .xtit a:hover {
+  background-position: 0 -60px;
+}
