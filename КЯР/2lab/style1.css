@@ -1,0 +1,14 @@
+h1,h2,h3{
+    color:purple;
+    font-family: monotype corsiva;
+}
+.aaa {
+    color: red;
+    font-family: Times New Roman;
+    font-size: 18px;
+}
+.bbb{
+    color: yellow;
+    font-family: Times New Roman;
+    font-size: 20px;
+}

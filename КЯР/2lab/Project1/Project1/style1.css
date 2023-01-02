@@ -1,0 +1,21 @@
+h1, h2,h3 {
+    color : purple;
+    font-famyli: Monotype Corsiva;
+}
+.aaa{
+    color : red;
+    font-famyli: Times New Roman;
+    font-size: 18px;
+}
+.bbb{
+    color: yellow;
+    font-famyli: Times New Roman;
+    font-size: 20px;
+}
+.ccc{
+    color :green;
+    font-famyli: Times New Roman;
+    font-size: 22px;
+}
+.t+p{background-color:yellow}
+.r~p{color:blue}
